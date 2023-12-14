@@ -1,0 +1,19 @@
+@prefix :        <https://w3id.org/riverbench/profiles/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix lib:     <https://w3id.org/riverbench/temp/lib#> .
+@prefix rb:      <https://w3id.org/riverbench/schema/metadata#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix stax:    <https://w3id.org/stax/ontology#> .
+
+:flat-quads
+    a dcat:DatasetSeries, rb:Profile ;
+    dcterms:identifier "flat-quads" ;
+    dcterms:title "Flat sequence of quads (standard)"@en ;
+    dcterms:description "Flat sequence of quads (RDF 1.1 standard only)"@en ;
+    rb:hasDatasetShape [
+        sh:targetClass rb:Dataset ;
+        sh:property lib:propFlatQuadStream, lib:propRdfStandard ;
+    ] ;
+    rb:hasDistributionShape lib:nodeFlatDistribution
+.

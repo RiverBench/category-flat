@@ -1,0 +1,20 @@
+@prefix :        <https://w3id.org/riverbench/profiles/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix lib:     <https://w3id.org/riverbench/temp/lib#> .
+@prefix rb:      <https://w3id.org/riverbench/schema/metadata#> .
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix stax:    <https://w3id.org/stax/ontology#> .
+
+:flat-mixed
+    a dcat:DatasetSeries, rb:Profile ;
+    dcterms:identifier "flat-mixed" ;
+    dcterms:title "Flat sequence of triples or quads (standard)"@en ;
+    dcterms:description "Flat sequence of triples or quads (RDF 1.1 standard only)"@en ;
+    rb:isSupersetOfProfile :flat-triples, :flat-quads ;
+    rb:hasDatasetShape [
+        sh:targetClass rb:Dataset ;
+        sh:property lib:propFlatStream, lib:propRdfStandard ;
+    ] ;
+    rb:hasDistributionShape lib:nodeFlatDistribution
+.
