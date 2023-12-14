@@ -1,0 +1,29 @@
+@prefix : <https://w3id.org/riverbench/temp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rb: <https://w3id.org/riverbench/schema/metadata#> .
+@prefix rbdoc: <https://w3id.org/riverbench/schema/documentation#> .
+
+# This file is a template for a benchmark task metadata file.
+# The URI of the task here is temporary. Real URIs are assigned automatically in CI.
+
+:task
+    # General information
+    a rb:Task ;
+    dcterms:conformsTo <https://w3id.org/riverbench/schema/metadata> ;
+    # The task ID must be unique and must start with the ID of the category it belongs to.
+    # For example, all tasks in the "stream" category must start with "stream-".
+    dcterms:identifier "[YOUR TASK ID (only a-z, 0-9, and -)]" ;
+    dcterms:title "[HUMAN-READABLE NAME OF YOUR TASK]"@en ;
+    dcterms:description "[ELABORATED DESCRIPTION OF THE TASK]"@en ;
+
+    # Authors
+    # Feel free to add more creators or use any FOAF properties here
+    dcterms:creator [
+        foaf:name "[YOUR NAME]" ;
+        foaf:nick "[YOUR NICK]" ;
+        foaf:homepage <LINK-TO-YOUR-PAGE> ;
+        # Optional: use this property to order creators in the generated docs
+        rbdoc:hasDocWeight 1 ;
+    ]
+.

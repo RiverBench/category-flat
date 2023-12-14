@@ -1,0 +1,15 @@
+@prefix : <https://w3id.org/riverbench/temp#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rb: <https://w3id.org/riverbench/schema/metadata#> .
+
+# This file contains the manually written metadata for the benchmark category.
+# The URI of the category here is temporary. Real URIs are assigned automatically in CI.
+
+:category
+    a rb:Category ;
+    dcterms:conformsTo <https://w3id.org/riverbench/schema/metadata> ;
+    dcterms:identifier "[YOUR CATEGORY ID (only a-z, 0-9, no dashes!)]" ;
+    dcterms:title "[HUMAN-READABLE NAME OF YOUR CATEGORY]"@en ;
+    dcterms:description """[ELABORATED DESCRIPTION OF THE CATEGORY]"""@en ;
+.

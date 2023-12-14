@@ -1,0 +1,28 @@
+@prefix :        <https://w3id.org/riverbench/profiles/> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rb:      <https://w3id.org/riverbench/schema/metadata#> .
+@prefix stax:    <https://w3id.org/stax/ontology#> .
+
+# This file is a template for creating a new profile.
+# Copy this file and replace the placeholders with the actual values.
+
+:__ID__
+    a dcat:DatasetSeries, rb:Profile ;
+    # The profile ID must be unique and must start with the ID of the category it belongs to.
+    # For example, all profiles in the "stream" category must start with "stream-".
+    dcterms:identifier "[PROFILE ID (SAME AS __ID__), only a-z, 0-9, and -]" ;
+    dcterms:title "[HUMAN-READABLE NAME OF THE PROFILE]" ;
+    dcterms:description "[ELABORATED DESCRIPTION OF THE PROFILE]" ;
+    # Optional: if this profile is a superset of another profile, specify the ID of the other profile here.
+    rb:isSupersetOfProfile :__ID_OF_SUBPROFILE__ ;
+
+    # Specify the shapes of datasets and distributions that are valid for this profile.
+    # Use the shapes defined in the shapes library in the schema repository:
+    # https://github.com/RiverBench/schema/tree/main/src/lib/profiles
+    rb:hasDatasetShape [
+        sh:targetClass rb:Dataset ;
+        sh:property lib:LIST-RESTRICTIONS-HERE ;
+    ] ;
+    rb:hasDistributionShape lib:LIST-RESTRICTIONS-HERE ;
+.
