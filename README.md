@@ -30,6 +30,11 @@ Benchmark category of generic tasks involving flat RDF streams (elements are eit
 
 ### Content
 
+- **<abbr title="For benchmark categories this property indicates tasks that belong to the category.">Has benchmark task</abbr>**: 
+    - [flat-compression (dev)](https://w3id.org/riverbench/tasks/flat-compression/dev)
+    - [flat-deserialization-throughput (dev)](https://w3id.org/riverbench/tasks/flat-deserialization-throughput/dev)
+    - [flat-rdf-store-loading (dev)](https://w3id.org/riverbench/tasks/flat-rdf-store-loading/dev)
+    - [flat-serialization-throughput (dev)](https://w3id.org/riverbench/tasks/flat-serialization-throughput/dev)
 - **<abbr title="For benchmark categories this property indicates profiles that belong to the category.">Has benchmark profile</abbr>**: 
     - [flat-mixed (dev)](https://w3id.org/riverbench/profiles/flat-mixed/dev)
     - [flat-mixed-nonstandard (dev)](https://w3id.org/riverbench/profiles/flat-mixed-nonstandard/dev)
