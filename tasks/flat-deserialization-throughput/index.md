@@ -29,6 +29,6 @@ There are no results with RiverBench available for this task yet.
 
 ## Examples and references
 
-- Such a benchmark was performed in a paper comparing several RDF stores on IoT devices. There, the authors measured the time taken to load the data and the memory usage.
-    - Le-Tuan, A., Hayes, C., Hauswirth, M., & Le-Phuoc, D. (2020). Pushing the scalability of rdf engines on iot edge devices. Sensors, 20(10), 2788.
+- Such a benchmark was performed in a paper comparing several RDF stores on IoT devices (Section 8). There, the authors measured the time taken to load the data and the memory usage.
+    - Le-Tuan, A., Hayes, C., Hauswirth, M., & Le-Phuoc, D. (2020). Pushing the Scalability of RDF Engines on IoT Edge Devices. Sensors, 20(10), 2788.
     - https://doi.org/10.3390/s20102788
