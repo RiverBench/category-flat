@@ -20,6 +20,10 @@ The task consists of serializing RDF data stored in memory (as an array of RDF s
 
 The primary metric is the throughput of the serialization process, measured in RDF statements (triples or quads) per second. This is calculated as the total number of RDF statements serialized divided by the total time taken to serialize them.
 
+## Results
+
+There are no results with RiverBench available for this task yet.
+
 ## Examples and references
 
 - In the paper about the ERI format, a similar benchmark can be found in Section 4.3. The corresponding task in the paper is named "Compression time" and measures the time taken to serialize the entire sequence of triples.
