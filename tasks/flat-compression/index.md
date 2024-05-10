@@ -4,7 +4,7 @@ A benchmark task measuring the compression efficiency of flat RDF serializations
 
 ### Data
 
-Flat distributions of any dataset in the `flat` category of RiverBench may be used for this task.
+Flat distributions of any dataset in the [`flat` category](../../categories/flat/index.md) of RiverBench may be used for this task.
 
 ### Workload
 
@@ -33,3 +33,7 @@ There are no results with RiverBench available for this task yet.
 - In the paper about the ERI format, such a benchmark can be found in Section 4.2. The "Compression Ratio" metric there refers to the ratio between the compressed data size and the reference data size, with N-Triples used as the reference.
     - Fernández, J. D., Llaves, A., & Corcho, O. (2014). Efficient RDF interchange (ERI) format for RDF data streams. In The Semantic Web–ISWC 2014: 13th International Semantic Web Conference, Riva del Garda, Italy, October 19-23, 2014. Proceedings, Part II 13 (pp. 244-259). Springer International Publishing.
     - https://doi.org/10.1007/978-3-319-11915-1_16
+
+## See also
+
+- Version of this task for grouped RDF streams: [`stream-compression`](../stream-compression/index.md)

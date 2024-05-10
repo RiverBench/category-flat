@@ -9,7 +9,7 @@
     a rb:Task ;
     dcterms:conformsTo <https://w3id.org/riverbench/schema/metadata> ;
     dcterms:identifier "flat-deserialization-throughput" ;
-    dcterms:title "Deserialization throughput"@en ;
+    dcterms:title "Flat RDF deserialization throughput"@en ;
     dcterms:description "A benchmark task measuring the throughput (in statements per second) of deserializing a byte stream into a flat sequence of RDF triples or RDF quads."@en ;
 
     # Authors
