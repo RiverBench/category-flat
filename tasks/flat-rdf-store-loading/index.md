@@ -4,7 +4,7 @@ A benchmark task measuring the time taken and resources used by RDF stores when 
 
 ### Data
 
-Flat distributions of any dataset in the `flat` category of RiverBench may be used for this task.
+Flat distributions of any dataset in the [`flat` category](../../categories/flat/index.md) of RiverBench may be used for this task.
 
 ### Workload
 

@@ -9,7 +9,7 @@
     a rb:Task ;
     dcterms:conformsTo <https://w3id.org/riverbench/schema/metadata> ;
     dcterms:identifier "flat-compression" ;
-    dcterms:title "RDF compression"@en ;
+    dcterms:title "Flat RDF compression"@en ;
     dcterms:description "A benchmark task measuring the compression efficiency of flat RDF serializations."@en ;
 
     # Authors
