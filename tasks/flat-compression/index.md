@@ -1,5 +1,6 @@
 A benchmark task measuring the compression efficiency of flat RDF serializations.
 
+
 ## Methodology
 
 ### Data
