@@ -17,29 +17,6 @@
 Full documentation for all versions can be found [on the website](https://w3id.org/riverbench/v/dev/categories/flat).*
 
 Benchmark category of generic tasks involving flat RDF streams (elements are either RDF triples or RDF quads). Each dataset in this category can be also treated as a single RDF graph/RDF dataset.
-## Benchmark tasks
-
-Below you will find a list of tasks that are part of this benchmark category.
-
-!!! tip
-
-    Benchmark tasks and profiles in RiverBench have machine-readable metadata in RDF.
-    You can find RDF download links for each profile on its documentation page.
-    You can also use the [HTTP content negotiation mechanism](../../documentation/metadata.md).
-
---8<-- "docs/categories/flat/task_table.md"
-
-## Benchmark profiles
-
-Profiles in RiverBench group datasets that share common technical characteristics.
-For example, whether the datasets consist of triples or quads, if they use RDF-star, etc.
-The profiles are intended to be used in benchmarks to compare the performance of different systems on a well-defined collection of datasets.
-
-See the **[quick start guide](../../documentation/using.md)** for more information on how to use the profiles, tasks, and datasets.
-
---8<-- "docs/categories/flat/profile_table.md"
-
-
 
 ## Metadata
 
