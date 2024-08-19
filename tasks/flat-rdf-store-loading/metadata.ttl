@@ -18,5 +18,11 @@
         foaf:nick "Ostrzyciel" ;
         foaf:homepage <https://github.com/Ostrzyciel>, <https://orcid.org/0000-0002-2543-9461> ;
         rbdoc:hasDocWeight 1 ;
-    ]
+    ] ;
+    dcterms:contributor [
+        foaf:name "Ted Thibodeau Jr" ;
+        foaf:nick "TallTed" ;
+        foaf:homepage <http://id.myopenlink.net/dataspace/person/tthibodeau> ;
+        rbdoc:hasDocWeight 1 ;
+    ] ;
 .
