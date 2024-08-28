@@ -8,6 +8,8 @@ on:
   workflow_dispatch: {}
   repository_dispatch:
     types: [dataset-update]
+  schedule:
+    - cron: '25 4 * * 1,4'
 
 jobs:
   validate:
